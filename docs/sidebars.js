@@ -4,6 +4,15 @@ module.exports = {
     'playground',
     {
       type: 'category',
+      label: 'FOO BAR',
+      collapsed: false,
+      items: [
+          'rasa-pro-setup',
+          'analytics',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Building Assistants',
       collapsed: false,
       items: [
