@@ -33,13 +33,26 @@ write information into a database.
 
 ### Prerequisites
 
+#### Existing Services
+
 - A production deployment of Kafka is required to set up Rasa Pro.
   We recommend to use [Amazon Managed Streaming for
   Apache Kafka](https://aws.amazon.com/msk/).
 - A production deployment of a data lake needs to be connected to
   the data pipeline. Rasa Pro support the following data lakes:
   1. [Amazon Redshift](https://aws.amazon.com/redshift/) (recommended)
-  2. [PostgreSQL](https://aws.amazon.com/rds/postgresql/)
+  2. [PostgreSQL](https://aws.amazon.com/rds/postgresql/) (version >= 11)
+
+#### Hardware requirements
+
+:::warning
+TODO: add once we have done load testing. add minimal and recommended.
+should be aligned with AWS machine types.
+:::
+
+- CPU
+- Disk
+- Memory
 
 ### Installation and Configuration
 
